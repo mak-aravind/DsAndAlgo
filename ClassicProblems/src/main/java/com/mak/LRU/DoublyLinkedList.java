@@ -56,26 +56,26 @@ public class DoublyLinkedList {
 		tail.setNext(null);
 	}
 	
-	public void moveUrlToHead(Node urlNodeToMove){
-		if (urlNodeToMove == null || urlNodeToMove == getHead())
+	public void moveUrlToHead(Node urlNode){
+		if (urlNode == null || urlNode == getHead())
 			return;
 		
-		if (urlNodeToMove == tail){
+		if (urlNode == tail){
 			deleteNodeAtTail();
 		}
 		
-		Node previous = urlNodeToMove.getPrevious();
-		Node next = urlNodeToMove.getNext();
+		Node previous = urlNode.getPrevious();
+		Node next = urlNode.getNext();
 		
 		previous.setNext(next);
 		
 		if (next != null)
 			next.setPrevious(previous);
 		
-		urlNodeToMove.setPrevious(null);
-		urlNodeToMove.setNext(getHead());
-		getHead().setPrevious(urlNodeToMove);
-		pointHeadTowards(urlNodeToMove);
+		urlNode.setPrevious(null);
+		urlNode.setNext(getHead());
+		getHead().setPrevious(urlNode);
+		pointHeadTowards(urlNode);
 	}
 	
 
