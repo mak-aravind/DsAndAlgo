@@ -47,7 +47,7 @@ public class Cache {
 									"www.google.com",
 									"www.flipkart.com",
 									"www.snapdeal.com",
-									"www.mircrosoft.com",
+									"www.thoughworks.com",
 									"www.flipkart.com"};
 		
 		Arrays.stream(address).forEach(url -> {browserAddressBar.accessPage(url);
