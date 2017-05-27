@@ -43,13 +43,17 @@ public class DoublyLinkedList {
 		}else if (getListSize() < getCapacity()){
 			size++;
 		}else{
-			tail = tail.getPrevious();
-			tail.setNext(null);
+			deleteNodeAtTail();
 		}
 		urlNode.setNext(getHead());
 		getHead().setPrevious(urlNode);
 		pointHeadTowards(urlNode);
 		return urlNode;
+	}
+
+	private void deleteNodeAtTail() {
+		tail = tail.getPrevious();
+		tail.setNext(null);
 	}
 	
 	public void moveUrlToHead(Node urlNode){
@@ -57,8 +61,7 @@ public class DoublyLinkedList {
 			return;
 		
 		if (urlNode == tail){
-			tail = tail.getPrevious();
-			tail.setNext(null);
+			deleteNodeAtTail();
 		}
 		
 		Node previous = urlNode.getPrevious();
