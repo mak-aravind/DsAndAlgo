@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.mak.LRU.DoublyLinkedList;
+import com.mak.LRU.Node;
+
 public class Cache {
 	
 	int capacity;
@@ -33,8 +36,7 @@ public class Cache {
 	}
 	 public void listHistory() {
 	 	urlHistory.printList();
-	 	System.out.println();
-	 	System.out.println("Cache Size:" + this.cacheSize);
+	 	System.out.println("\nCache Size:" + this.cacheSize);
     }
 	public static void main(String[] args) {
 		int cacheSize = 4;
@@ -50,8 +52,9 @@ public class Cache {
 									"www.thoughworks.com",
 									"www.flipkart.com"};
 		
-		Arrays.stream(address).forEach(url -> {browserAddressBar.accessPage(url);
-												 browserAddressBar.listHistory();
+		Arrays.stream(address).forEach(url -> {	System.out.println("The Address going to enter in browser:" + url);
+												browserAddressBar.accessPage(url);
+												browserAddressBar.listHistory();
 												}
 										   );
 	}
