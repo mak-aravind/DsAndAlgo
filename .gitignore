@@ -19,3 +19,7 @@ ClassicProblems/\.settings/org\.eclipse\.jdt\.core\.prefs
 algoExpert/\.classpath
 
 algoExpert/\.settings/org\.eclipse\.buildship\.core\.prefs
+
+algoExpert/e01-TwoNumberSum/\.classpath
+
+*.prefs
