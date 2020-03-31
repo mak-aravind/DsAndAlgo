@@ -1,0 +1,11 @@
+version 'unspecified'
+sourceCompatibility = 1.8
+dependencies {
+    compile 'log4j:log4j:1.2.17'
+    compile project(':easy-question-two-number-sum')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+apply plugin: 'application'
+mainClassName = 'org.mak.algoexpert.AppHelloWorld'
+
+

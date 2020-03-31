@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.gradle/
+/.idea/
+/app/build/
+/app/out/
+/easy-question-two-number-sum/build/
+/easy-question-two-number-sum/out/
+/gradlew
+/gradlew.bat
+/gradle/
