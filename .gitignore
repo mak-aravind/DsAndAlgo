@@ -23,3 +23,16 @@ algoExpert/\.settings/org\.eclipse\.buildship\.core\.prefs
 algoExpert/e01-TwoNumberSum/\.classpath
 
 *.prefs
+algoExpert/app/.classpath
+algoExpert/easy-question-two-number-sum/.classpath
+DSAndAlgoDeepDive/.classpath
+DSAndAlgoDeepDive/.gradle/6.5.1/gc.properties
+DSAndAlgoDeepDive/.gradle/buildOutputCleanup/cache.properties
+DSAndAlgoDeepDive/.gradle/vcs-1/gc.properties
+DSAndAlgoDeepDive/.gradle/6.5.1/executionHistory/executionHistory.lock
+DSAndAlgoDeepDive/.gradle/6.5.1/fileChanges/last-build.bin
+DSAndAlgoDeepDive/.gradle/6.5.1/fileHashes/fileHashes.lock
+DSAndAlgoDeepDive/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+DSAndAlgoDeepDive/.gradle/checksums/checksums.lock
+DSAndAlgoDeepDive/.gradle/checksums/md5-checksums.bin
+DSAndAlgoDeepDive/.gradle/checksums/sha1-checksums.bin
