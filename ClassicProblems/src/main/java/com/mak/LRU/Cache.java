@@ -4,9 +4,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.mak.LRU.DoublyLinkedList;
-import com.mak.LRU.Node;
-
 public class Cache {
 	
 	int capacity;
